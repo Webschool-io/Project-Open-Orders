@@ -10,7 +10,8 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 
 - User
 - Vendedor
-- Compardor
+- Comprador
+- Loja
 - Produto
 - Pedido
 
@@ -51,3 +52,13 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
   }]
 - desconto: Number // em %
 
+### Loja
+
+- nome: String
+- categoria: ENUM
+- tags: Array
+- endereço: {}
+- telefone: {}
+- produtos: []
+- vendedores: []
+- compradores:[]
