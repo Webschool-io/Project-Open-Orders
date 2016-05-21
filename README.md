@@ -54,7 +54,14 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 
 ### Loja
 
+- dono_id: ObjectId
 - nome: String
+- contato: {
+    Nome: String
+  , email: String
+  , Telefone: String
+  , Endereço: String
+  }
 - categoria: ENUM
 - tags: Array
 - endereço: {}
