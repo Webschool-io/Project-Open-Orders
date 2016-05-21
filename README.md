@@ -38,3 +38,10 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
   }
 - categorias: Array
 - tags: Array
+
+
+### Pedido
+
+- vendedor_id: ObjectId
+- comprador_id: ObjectId
+
