@@ -44,4 +44,10 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 
 - vendedor_id: ObjectId
 - comprador_id: ObjectId
+- produtos: [{
+    produto_id: ObjectId,
+    quantidade: Number,
+    desconto: Number // em %
+  }]
+- desconto: Number // em %
 
