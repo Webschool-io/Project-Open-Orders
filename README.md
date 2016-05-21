@@ -1,23 +1,23 @@
-# BlurAdmin Angular admin panel front-end framework
+# Angular Orders System
 
-Customizable admin panel framework made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
+### This project uses the package BlurAdmin,
 
-### Demo
-**[Mint version demo](http://akveo.com/blur-admin-mint/)**             |  **[Blur version demo](http://akveo.com/blur-admin/)**
-:-------------------------:|:-------------------------:
-![Mint version demo](http://i.imgur.com/A3TMviJ.png)  |  ![Blur version demo](http://i.imgur.com/EAoiK2O.jpg)
+you can see more on https://github.com/akveo/blur-admin
 
-### Documentation
-Installation, customization and other useful articles: https://akveo.github.io/blur-admin/
+### Installation
 
-## How can I support developers?
-- Star our GitHub repo
-- Create pull requests, submit bugs, suggest new features or documentation updates
-- Follow us on [Twitter](https://twitter.com/akveo_inc)
-- Like our page on [Facebook](https://www.facebook.com/akveo/)
+Cloning this repository
 
-## Can I hire you guys?
-Yes! We are available for hire. Visit [our homepage](http://akveo.com/) or simply leave us a note to contact@akveo.com. We will be happy to work with you!
+`git clone https://github.com/Webschool-io/Project-Open-Orders.git AngularOrders`
+
+Enter in folder
+
+`cd AngularOrders`
+
+Change the branch to frontend
+
+`git checkout -b frontend`
+
 
 ## Features
 * Responsive layout
@@ -35,7 +35,10 @@ License
 -------------
 <a href=/LICENSE.txt target="_blank">MIT</a> license.
 
-### From akveo
+### Package Documentation
+Installation, customization and other useful articles: https://akveo.github.io/blur-admin/
+
+### Credits to akveo
 
 Enjoy!
 We're always happy to hear your feedback.
