@@ -4,6 +4,12 @@
 
 you can see more on https://github.com/akveo/blur-admin
 
+### Prerequisites
+
+Download and install https://git-scm.com/
+
+Download and install nodejs https://nodejs.org
+
 ### Installation
 
 Cloning this repository
@@ -17,6 +23,18 @@ Enter in folder
 Change the branch to frontend
 
 `git checkout -b frontend`
+
+### Running local copy
+
+To run local copy in development mode, execute:
+
+`gulp serve`
+
+This script should automatically open template in your default browser.
+
+To run local copy in production mode, execute:
+
+`gulp serve:dist`
 
 
 ## Features
