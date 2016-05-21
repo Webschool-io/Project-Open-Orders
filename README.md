@@ -36,3 +36,5 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
   , altura: Number
   , unidade: String
   }
+- categorias: Array
+- tags: Array
