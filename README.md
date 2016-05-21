@@ -4,6 +4,13 @@ Sistema de Pedidos criado no Be MEAN.
 
 A ideia é criar um sistema de **PEDIDOS** básico que sirva de base para nosso ECOMMERCE.
 
+Imagine a seguinte situação:
+
+> Sou um programador que trabalha **home-office** e preciso comprar 1 quadro branco e post-its para ele mas não quero sair de casa. Poderia ligar em alguma papelaria, mas em vez disso posso fazer o pedido via ESSE sistema e a **LOJA** me liga para confirmar o PEDIDO e enviar ele via {QUALQUER TIPO}, exemplo: Moto-boy.
+
+Logo o Sistema deverá gerenciar o cadastro dos vendedores, compraores e produtos e sua interação, além da sua ENTREGA.
+
+
 **Para quem está lendo isso agora:**
 
 O sistema será feito em [MEAN](http://webschool.io/bemean), após a finalização da MODELAGEM das ENTIDADES, o FRONT e o BACK poderão seguir em paralelo.
