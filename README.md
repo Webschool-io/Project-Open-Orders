@@ -1,86 +1,41 @@
-# Project-Open-Orders
+# BlurAdmin Angular admin panel front-end framework
 
-Sistema de Pedidos criado no Be MEAN.
+Customizable admin panel framework made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
 
-A ideia é criar um sistema de **PEDIDOS** básico que sirva de base para nosso ECOMMERCE.
+### Demo
+**[Mint version demo](http://akveo.com/blur-admin-mint/)**             |  **[Blur version demo](http://akveo.com/blur-admin/)**
+:-------------------------:|:-------------------------:
+![Mint version demo](http://i.imgur.com/A3TMviJ.png)  |  ![Blur version demo](http://i.imgur.com/EAoiK2O.jpg)
 
-Imagine a seguinte situação:
+### Documentation
+Installation, customization and other useful articles: https://akveo.github.io/blur-admin/
 
-> Sou um programador que trabalha **home-office** e preciso comprar 1 quadro branco e post-its para ele mas não quero sair de casa. Poderia ligar em alguma papelaria, mas em vez disso posso fazer o pedido via ESSE sistema e a **LOJA** me liga para confirmar o PEDIDO e enviar ele via {QUALQUER TIPO}, exemplo: Moto-boy.
+## How can I support developers?
+- Star our GitHub repo
+- Create pull requests, submit bugs, suggest new features or documentation updates
+- Follow us on [Twitter](https://twitter.com/akveo_inc)
+- Like our page on [Facebook](https://www.facebook.com/akveo/)
 
-Logo o Sistema deverá gerenciar o cadastro dos vendedores, compraores e produtos e sua interação, além da sua ENTREGA.
+## Can I hire you guys?
+Yes! We are available for hire. Visit [our homepage](http://akveo.com/) or simply leave us a note to contact@akveo.com. We will be happy to work with you!
 
+## Features
+* Responsive layout
+* High resolution
+* Bootstrap CSS Framework
+* Sass
+* Gulp build
+* AngularJS
+* Jquery
+* Charts (amChart, Chartist, Chart.js, Morris)
+* Maps (Google, Leaflet, amMap)
+* etc
 
-**Para quem está lendo isso agora:**
+License
+-------------
+<a href=/LICENSE.txt target="_blank">MIT</a> license.
 
-O sistema será feito em [MEAN](http://webschool.io/bemean), após a finalização da MODELAGEM das ENTIDADES, o FRONT e o BACK poderão seguir em paralelo.
+### From akveo
 
-No BACK iremos definir os Organismos, Moléculas, Átomos, Quarks e afins. Caso não saiba do que se trata favor ver as [aulas de Node.js](https://www.youtube.com/playlist?list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ).
-
-No FRONT usaremos Angular e Materialize.
-
-Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
-
-## Entidades
-
-- User
-- Vendedor
-- Comprador
-- Loja
-- Produto
-- Pedido
-
-### Produto
-
-- nome: String
-- sku: String
-- descricao: String
-- tamanho: String
-- peso: {
-    valor: Number
-  , unidade: String
-  }
-- thumb: String
-- image: String
-- valor: {
-    real: Number
-  , moeda: String
-  }
-- dimensoes: {
-    largura: Number
-  , comprimento: Number
-  , altura: Number
-  , unidade: String
-  }
-- categorias: Array
-- tags: Array
-
-
-### Pedido
-
-- vendedor_id: ObjectId
-- comprador_id: ObjectId
-- produtos: [{
-    produto_id: ObjectId,
-    quantidade: Number,
-    desconto: Number // em %
-  }]
-- desconto: Number // em %
-
-### Loja
-
-- dono_id: ObjectId
-- nome: String
-- contato: {
-    Nome: String
-  , email: String
-  , Telefone: String
-  , Endereço: String
-  }
-- categoria: ENUM
-- tags: Array
-- endereço: {}
-- telefone: {}
-- produtos: []
-- vendedores: []
-- compradores:[]
+Enjoy!
+We're always happy to hear your feedback.
