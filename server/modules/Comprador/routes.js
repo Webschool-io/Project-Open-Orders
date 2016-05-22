@@ -6,7 +6,7 @@ const Organism = require('./organisms/comprador');
 const Create = require('./brainCreate')(Organism);
 const Find = require('./brainFind')(Organism);
 const FindOne = require('./brainFindOne')(Organism);
-// const Update = require('./brainUpdate')(Organism);
+const Update = require('./brainUpdate')(Organism);
 const Remove = require('./brainRemove')(Organism);
 
 
@@ -15,16 +15,7 @@ router.get('/', Find);
 router.get('/:id', FindOne);
 router.post('/', Create);
 // router.put('/:id', Update);
-router.put('/:id', (req, res) => {
-  console.log('PUT')
-  let query = { _id: req.params.id };
-  let mod = req.body;
-  let options = { runValidators: true };
-
-  Organism.update(query, mod, options, (err, data) => {
-    callbackExpress(err, data, res);
-  });
-});
+router.put('/:id', Update);
 router.delete('/:id', Remove);
 
 module.exports = router;
