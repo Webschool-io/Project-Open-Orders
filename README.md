@@ -36,6 +36,8 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 - sku: String
 - descricao: String
 - tamanho: String
+- date_created: Date
+- date_updated: Date
 - peso: {
     valor: Number
   , unidade: String
