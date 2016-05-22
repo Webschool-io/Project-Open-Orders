@@ -40,8 +40,11 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
     valor: Number
   , unidade: String
   }
-- thumb: String
-- image: String
+- 
+- images: {
+    thumb: String,
+    gallery: Array
+}
 - valor: {
     real: Number
   , moeda: String
