@@ -3,10 +3,9 @@ const Schema = mongoose.Schema;
 const Curso = require('./curso');
 
 const Molecule = {
-  user_id: require('./../atoms/userRef')(Schema)
 , name: require('./../atoms/name')
 , dateBirth: require('./../atoms/dateBirth')
-, cursos: [Curso]
+, products: [{type: Schema.Types.ObjectId, ref: 'products'}]
 }
 
 module.exports = new Schema(Molecule);

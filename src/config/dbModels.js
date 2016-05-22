@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb://localhost/modelo-padrao';
+const dbURI = 'mongodb://localhost/be-mean-open-orders';
 
 mongoose.connect(dbURI);
 
@@ -24,7 +24,4 @@ process.on('SIGINT', function() {
 });
 
 
-mongoose.model('Curso', require('../modules/Curso/molecules/curso'));
-mongoose.model('User', require('../modules/User/molecules/user'));
-mongoose.model('Aluno', require('../modules/Aluno/molecules/alunoCurso'));
-mongoose.model('Professor', require('../modules/Professor/molecules/professorCurso'));
+mongoose.model('Comprador', require('../modules/Comprador/molecules/comprador'));

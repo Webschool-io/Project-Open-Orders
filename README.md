@@ -32,14 +32,18 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 
 ### Comprador
 
+- nome: String
+- dataNascimento: Date
+- produtos: Array
+
 ### Produto
 
 - nome: String
 - sku: String
 - descricao: String
 - tamanho: String
-- created_at: Date
-- updated_at: Date
+- createdAt: Date
+- updatedAt: Date
 - peso: {
     valor: Number
   , unidade: String
