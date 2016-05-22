@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const Organism = require('./organisms/aluno');
+const Organism = require('./organisms/comprador');
 const Create = require('./brainCreate')(Organism);
 const Find = require('./brainFind')(Organism);
 const FindOne = require('./brainFindOne')(Organism);
