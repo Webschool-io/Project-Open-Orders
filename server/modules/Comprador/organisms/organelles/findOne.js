@@ -5,10 +5,12 @@ module.exports = (Organism) => {
     const arr = require('../../../helpers/prepareDocMongoose')(Organism);
     const Refs = require('../../../helpers/findRefMongoose')(arr);
     const Populate = require('../../../helpers/runPopulateMongoose');
-    console.log('Refs', Refs)
+
+    // Organism.findOne(obj).lean().exec(callback);
     Organism.findOne(obj).lean().exec( (err, data) => {
       if(err) return console.log('ERRO', err);
-      console.log('data', data)
+      // se não tiver Refs retorna o objeto
+      if(!Refs.length) callback(err, data)
       if(Object.keys(Refs).length) return Populate.run(data, Refs, callback);
     });
   }
