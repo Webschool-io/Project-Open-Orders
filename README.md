@@ -24,7 +24,7 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 ## Entidades
 
 - User
-- Vendedor
+- Vendedor (não é necessário ainda)
 - Comprador
 - Loja
 - Produto
