@@ -36,6 +36,15 @@ Gerente de Projeto: [rohmunhoz](https://github.com/rohmunhoz)
 - dataNascimento: Date
 - produtos: Array
 
+#### API
+
+- C: POST http://localhost:3000/api/compradores/
+- R: GET http://localhost:3000/api/compradores/
+  + GET http://localhost:3000/api/compradores/{_id}
+- U: PUT http://localhost:3000/api/compradores/{_id}
+- D: DELETE http://localhost:3000/api/compradores/{_id}
+
+
 ### Produto
 
 - nome: String
