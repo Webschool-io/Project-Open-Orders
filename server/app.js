@@ -13,10 +13,7 @@ const routes = require('./routes/index');
 const users = require('./routes/users');
 
 // Nossos módulos da API
-const UsersAPI = require('./modules/User/routes');
-const CursosAPI = require('./modules/Curso/routes');
-const AlunosAPI = require('./modules/Aluno/routes');
-const ProfessoressAPI = require('./modules/Professor/routes');
+const CompradoresAPI = require('./modules/Comprador/routes');
 
 const app = express();
 
@@ -35,10 +32,7 @@ app.use('/', routes);
 app.use('/users', users);
 
 // API JSON
-app.use('/api/users', UsersAPI);
-app.use('/api/cursos', CursosAPI);
-app.use('/api/alunos', AlunosAPI);
-app.use('/api/professores', ProfessoressAPI);
+app.use('/api/compradores', CompradoresAPI);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
